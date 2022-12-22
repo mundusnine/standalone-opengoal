@@ -1,0 +1,3 @@
+[submodule "Libraries/jak-project"]
+	path = Libraries/jak-project
+	url = git@github.com:mundusnine/jak-project.git
