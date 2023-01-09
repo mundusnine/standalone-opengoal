@@ -1,6 +1,7 @@
 build
-Deployment/**
-!Deployment/keepme
+*/Deployment/**
+!*/Deployment/keepme
+.vscode
 Makefile
 cmake*
 CMake*

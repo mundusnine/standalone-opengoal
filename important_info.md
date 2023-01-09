@@ -1,6 +1,15 @@
 - https://opengoal.dev/docs/reference/language_basics
 - https://all-things-andy-gavin.com/2011/03/12/making-crash-bandicoot-gool-part-9/
 - https://web.archive.org/web/20220520192410/https://blog.jakspeedruns.com/opengoal-project-update-september-2020/
+- https://www.neogaf.com/threads/why-did-naughty-dog-abandon-g-o-a-l-an-old-long-usenet-thread-gives-public-insight.139054/
+
+## Make a custom OpenGoal
+- To make a custom OpenGoal we could make are own lisp parser generator. We need debugging support, a repl, hot code patching
+    - Scheme/Lisp [introduction](https://www.youtube.com/watch?v=tA1clbGDczI)(grammar and syntax)
+    - Make a lisp [tutorial](https://github.com/kanaka/mal)
+    - Make a lisp [book](https://www.buildyourownlisp.com/contents)
+    - For hot code patching we can use [frida](https://github.com/rjoudrey/frida-runtime-code-patching/blob/master/hookMyApp.py)
+    - To compile to .o for [elf](https://github.com/serge1/ELFIO) [standard](https://refspecs.linuxbase.org/elf/elf.pdf) or [COFF](https://github.com/serge1/COFFI) [COFF loading](https://github.com/Yaxser/COFFLoader2) or use [libyasm](https://github.com/yasm/yasm)
 
 
 Info from the creator(water111):
