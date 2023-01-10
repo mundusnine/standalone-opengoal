@@ -1,6 +1,6 @@
-[submodule "Libraries/jak-project"]
-	path = Libraries/jak-project
-	url = git@github.com:mundusnine/jak-project.git
 [submodule "Tools/linux_x64"]
 	path = Tools/linux_x64
 	url = https://github.com/Kode/KincTools_linux_x64.git
+[submodule "Libraries/jak-project"]
+	path = Libraries/jak-project
+	url = git@github.com:mundusnine/jak-project.git
