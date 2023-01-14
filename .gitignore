@@ -1,4 +1,5 @@
 build
+Deployment/**
 */Deployment/**
 !*/Deployment/keepme
 .vscode
@@ -7,4 +8,4 @@ cmake*
 CMake*
 sound
 *.cbp
-Temp/*
+*Temp/*
